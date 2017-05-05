@@ -83,7 +83,9 @@ public class SignInActivity extends AppCompatActivity {
                         if(task.isSuccessful())
                         {
                             startActivity(new Intent(SignInActivity.this,NavMainActivity.class));
+
                             finish();
+
 
                         }
                         else{
