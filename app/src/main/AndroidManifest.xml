@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".GettingStarted" />
         <activity android:name=".SignInActivity" />
-        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".NavMainActivity"></activity>
     </application>
 
 </manifest>
