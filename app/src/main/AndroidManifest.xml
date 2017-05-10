@@ -19,7 +19,8 @@
         <activity android:name=".GettingStarted" />
         <activity android:name=".SignInActivity" />
         <activity android:name=".SignUpActivity" />
-        <activity android:name=".NavMainActivity"></activity>
+        <activity android:name=".NavMainActivity" />
+        <activity android:name=".NavigationHeader"></activity>
     </application>
 
 </manifest>
