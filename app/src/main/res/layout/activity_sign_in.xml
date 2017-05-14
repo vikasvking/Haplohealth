@@ -17,6 +17,7 @@
         android:background="@color/whiteColor"
         android:inputType="textEmailAddress"
         android:hint="Email"
+
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -56,6 +57,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="remember_me "
+        android:textColor="@color/whiteColor"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="15dp"
@@ -77,6 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etPassword"
         android:layout_marginEnd="8dp"
         android:layout_marginLeft="8dp"
+        android:textColor="@color/whiteColor"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintHorizontal_bias="0.891" />
 
@@ -89,6 +92,9 @@
         android:layout_marginRight="8dp"
         android:layout_marginTop="8dp"
         android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="@drawable/buttonshape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -109,7 +115,8 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.824" />
+        app:layout_constraintVertical_bias="0.824"
+        android:textColor="@color/whiteColor"/>
 
     <TextView
         android:id="@+id/tvClinicLogIn"
@@ -121,6 +128,7 @@
         android:layout_marginTop="8dp"
         android:text="Clinic Log In"
         android:textStyle="bold"
+        android:textColor="@color/whiteColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"

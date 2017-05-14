@@ -3,8 +3,10 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="140dp"
-    android:background="@color/whiteColor"
-    tools:context="com.haplohealth.haplohealth.NavigationHeader">
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.haplohealth.haplohealth.NavMainActivity"
+    tools:showIn="@layout/app_bar_nav_main"
+    android:id="@+id/content_nav_main">
 
 </android.support.constraint.ConstraintLayout>

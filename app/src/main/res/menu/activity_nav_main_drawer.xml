@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_myProfile"
+            android:title="My profile"></item>
+    <item android:id="@+id/nav_home"
+        android:title="Home"></item>
+    <item
+        android:id="@+id/nav_Notification"
+        android:title="Notification" />
+
+    <item android:id="@+id/nav_liveStatus"
+        android:title="LiveStatus"></item>
+
+    <item android:id="@+id/nav_previousAppointment"
+        android:title="previous appointment"></item>
+
+    <item android:id="@+id/nav_help"
+        android:title="help/FAQ"></item>
+
+    <item android:id="@+id/nav_aboutUs"
+        android:title="About Us"></item>
+
+    <item android:id="@+id/nav_contactUs"
+        android:title="contact Us"></item>
+
+    <item android:id="@+id/nav_logout"
+        android:title="logout"></item>
+
+
+
+
+</menu>
